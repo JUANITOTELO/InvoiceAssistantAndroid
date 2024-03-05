@@ -1,0 +1,125 @@
+{
+  "name": "login_button",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "apgDoT0ZtXs7iPzSmLRBJS",
+    "node": "60:2",
+    "version": "5275727921",
+    "component-id": "ee4b9a71d43641292b6900c98937ad851cda61c7"
+  },
+  "default": "LoginButton",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "ButtonContiner"
+      },
+      {
+        "type": "text",
+        "id": "Login"
+      }
+    ],
+    "modes": {
+      "LoginButton": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "ButtonContiner",
+              "Login"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "ButtonContiner",
+            "border-radius": 45.0,
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 8.0,
+              "offset-x": 0.0,
+              "offset-y": 4.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -8.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -4.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "button_continer.svg"
+          },
+          {
+            "id": "Login",
+            "margin": {
+              "left": 48.0,
+              "top": 16.0,
+              "right": 48.0,
+              "bottom": 16.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9803921568627451
+            },
+            "text-content": "Login",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "line-height": 1.2102272851126534,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "LoginButton",
+      "size": {
+        "width": 134.0,
+        "height": 49.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

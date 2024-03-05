@@ -1,0 +1,250 @@
+{
+  "name": "input",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "apgDoT0ZtXs7iPzSmLRBJS",
+    "node": "32:8",
+    "version": "5226186035",
+    "component-id": "8ea67214c419ae64a8eec3356a49804463eaf28c"
+  },
+  "default": "Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "FormContainer"
+      },
+      {
+        "type": "text",
+        "id": "FormText"
+      }
+    ],
+    "modes": {
+      "Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "FormContainer",
+              "FormText"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "FormContainer",
+            "border-radius": 18.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "form_container.svg"
+          },
+          {
+            "id": "FormText",
+            "margin": {
+              "left": 15.0,
+              "top": 16.0,
+              "right": 194.0,
+              "bottom": 15.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.0
+            },
+            "text-content": "$text",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.2102272851126534,
+            "typeface": "Inter"
+          }
+        ]
+      },
+      "Error": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "FormContainer",
+              "FormText"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "FormContainer",
+            "border-radius": 18.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "form_container1.svg"
+          },
+          {
+            "id": "FormText",
+            "margin": {
+              "left": 15.0,
+              "top": 16.0,
+              "right": 194.0,
+              "bottom": 15.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 1.0,
+              "value": 1.0
+            },
+            "text-content": "$text",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.2102272851126534,
+            "typeface": "Inter"
+          }
+        ]
+      },
+      "Inactive": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "FormContainer",
+              "FormText"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "FormContainer",
+            "border-radius": 18.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "form_container2.svg"
+          },
+          {
+            "id": "FormText",
+            "margin": {
+              "left": 15.0,
+              "top": 16.0,
+              "right": 194.0,
+              "bottom": 15.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 0.4980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.0
+            },
+            "text-content": "$text",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.2102272851126534,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Default",
+      "size": {
+        "width": 271.0,
+        "height": 48.0
+      },
+      "parameters": {
+        "text": "FormText"
+      }
+    },
+    {
+      "design": "Error",
+      "size": {
+        "width": 271.0,
+        "height": 48.0
+      },
+      "parameters": {
+        "text": "FormText"
+      }
+    },
+    {
+      "design": "Inactive",
+      "size": {
+        "width": 271.0,
+        "height": 48.0
+      },
+      "parameters": {
+        "text": "FormText"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
